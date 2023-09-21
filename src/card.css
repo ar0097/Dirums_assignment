@@ -1,0 +1,58 @@
+.cardComp {
+  width: 28%;
+  height: 70%;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 7px;
+  padding: 20px;
+}
+.firsttask {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  visibility: hidden;
+}
+.task {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tasksContainer {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  overflow-y: scroll;
+  height: 85%;
+}
+
+@media screen and (max-width: 768px) {
+  .cardComp {
+    width: 90%;
+    height: 70%;
+    padding: 10px;
+  }
+
+  .task {
+    height: auto;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardComp {
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+  }
+
+  .task {
+    height: auto;
+    padding: 5px;
+  }
+}
